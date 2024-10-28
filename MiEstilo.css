@@ -1,0 +1,99 @@
+
+/* General Styling for the Website */
+body {
+    background: linear-gradient(to bottom right, #f7f4f0, #fce4d6);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #6b0f1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4e0812;
+    padding: 10px;
+}
+
+nav a {
+    color: #f5f3f4;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fce4d6;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6b0f1a;
+    border-bottom: 2px solid #6b0f1a;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    background-color: #7d4c1f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a3714;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4e0812;
+    color: #f5f3f4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+
+/* Post Card Styling */
+.post-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: scale(1.02);
+}
